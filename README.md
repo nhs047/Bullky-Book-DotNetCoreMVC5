@@ -21,5 +21,9 @@ To run locally:
 
 - `BulkyBook.Utility` - This folder contains the constant variables and methods which are used thoughout the application.
 
+- `Stripe` - The application has a payment gateway integration. The payment system has been attached to Stripe. Nuget package will take care of stripe
+
+- `Unit of Work` - The application has only a connection with unit of work, which will responsible to connect repositories and database to perform crud operations.
+
 ## Dependencies
 - nuget packages are the only dependancy here   
